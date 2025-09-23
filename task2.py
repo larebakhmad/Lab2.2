@@ -13,3 +13,7 @@ with open("sample_auth_small.log") as f:
             if ip:
                 counts[ip] += 1
 print(counts)
+"""
+this program reads a log file and counts failed login attempts by IP address.
+It uses regular expressions to extract IP addresses and a defaultdict to count occurrences. 
+"""
